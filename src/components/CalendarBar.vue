@@ -6,7 +6,7 @@
 		:show-confirm="false"
 		:poppable="false"
 		:row-height="30"
-		:style="{ height: '300px'}"
+		:style="{ height: '320px'}"
 		:formatter="formatter"
 		color="deepskyblue">
 		<template slot="title">
@@ -80,8 +80,8 @@ export default {
 			}else if (day.date > new Date()){
 				return day
 			}else{
-				day.text = '今天'
-				day.type = 'start'
+				// day.text = '今天'
+				// day.type = 'start'
 				return day;
 			}
 		},
