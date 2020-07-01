@@ -7,7 +7,7 @@ export function request(config, success, failure) {
         baseURL: "http://134.175.155.79:5000/",
         timeout: 5000
     })
-
+    
     //2、请求拦截  
     instance.interceptors.request.use(config => {
         return config
