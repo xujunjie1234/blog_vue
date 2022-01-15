@@ -12,7 +12,7 @@
     "core-js": "^3.6.4",
     "element-ui": "^2.13.2",
     "highlight.js": "^10.0.3",
-    "marked": "^1.1.0",
+    "marked": "^4.0.10",
     "mavon-editor": "^2.9.0",
     "vant": "^2.8.4",
     "vue": "^2.6.11",
